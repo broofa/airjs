@@ -1,0 +1,14 @@
+{
+  "author": {
+    "name": "Robert Kieffer",
+    "url": "http://github.com/broofa",
+    "email": "robert@broofa.com"
+  },
+  "dependencies": {},
+  "description": "The Barometric Function, in Javascript",
+  "keywords": ["air pressure", "air density", "barometric function"],
+  "main": "air.js",
+  "name": "airjs",
+  "repository": {"url": "https://github.com/broofa/airjs", "type": "git"},
+  "version": "0.9.0"
+}
