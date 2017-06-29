@@ -1,3 +1,6 @@
+```javascript --hide
+runmd.onRequire = path => path.replace(/^airjs/, '.');
+```
 
 # air.js
 ----
@@ -17,16 +20,12 @@ The [Barometric Function](http://en.wikipedia.org/wiki/Barometric_formula) for d
 
 ## Usage
 
-```javascript
+```javascript --run
 var airjs = require('airjs');
 
 // E.g. Air pressure (Pascals) @ 1km AMSL
-airjs.pressure(1000); // ⇨ 89874.57050221058
+airjs.pressure(1000); // RESULT
 
 // E.g. Air density (kg/m^3) @ 2km AMSL
-airjs.density(2000);  // ⇨ 1.0064902544633867
-
+airjs.density(2000);  // RESULT
 ```
-
-----
-Markdown generated from [README_js.md](README_js.md) by [![RunMD Logo](http://i.imgur.com/h0FVyzU.png)](https://github.com/broofa/runmd)
