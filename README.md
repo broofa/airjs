@@ -1,3 +1,6 @@
+<!--
+  -- This file is auto-generated from README_js.md. Changes should be made there.
+  -->
 
 # air.js
 ----
@@ -25,7 +28,6 @@ airjs.pressure(1000); // ⇨ 89874.57050221058
 
 // E.g. Air density (kg/m^3) @ 2km AMSL
 airjs.density(2000);  // ⇨ 1.0064902544633867
-
 ```
 
 ----
