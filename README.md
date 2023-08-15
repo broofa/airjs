@@ -21,7 +21,6 @@ The [Barometric Function](http://en.wikipedia.org/wiki/Barometric_formula) for d
 ## Usage
 
 ```javascript
-var airjs = require('airjs');
 
 // E.g. Air pressure (Pascals) @ 1km AMSL
 airjs.pressure(1000); // ⇨ 89874.57050221058
