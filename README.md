@@ -21,5 +21,5 @@ import air from 'airjs';
 air(1000).pressure; // ⇨ 89874.57050221058
 
 // E.g. Air density (kg/m^3) @ 2km AMSL
-airjs(2000).density; // ⇨ 1.0064902544633867
+air(2000).density; // ⇨ 1.0064902544633867
 ```
